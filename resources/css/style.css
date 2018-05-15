@@ -28,6 +28,10 @@ section {
 	padding: 80px 0;
 }
 
+ul {
+	list-style: none;
+}
+
 /* HEADING SECTION */
 .section-heading {
 	text-align: center;
@@ -287,3 +291,54 @@ nav.row {
 	margin-left: 20px;
 	vertical-align: middle;
 }
+
+/* SIGN-UP SECTION*/
+
+.plan-section {
+	background-color: #f4f4f4;
+}
+
+.plan-section__plan-box {
+	background-color: white;
+	border-radius: 10px;
+	padding: 40px;
+}
+
+.plan-section__plan-name {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 150%;
+}
+
+.plan-section__month-price {
+	margin-top: 20px;
+	font-size: 300%;
+	color: #e67e22;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+
+.plan-section__month-price span {
+	font-size: 30%;	
+	vertical-align: middle;
+}
+
+.plan-section__meal-price {
+	font-size: 85%;
+}
+
+.plan-section__plan-detail-box {
+	line-height: 1.5;
+	padding: 20px 10px;	
+}
+
+.plan-section__plan-detail-box i {
+	margin-right: 10px;
+	font-size: 70%;
+	color: #e67e22;
+}
+
+.plan-section__btn-box {
+	text-align: center;
+}
+
