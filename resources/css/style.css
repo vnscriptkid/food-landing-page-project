@@ -51,6 +51,7 @@ header {
 	background-position: center;
 	height: 100vh;
 	position: relative;
+	background-attachment: fixed;
 }
 
 header h1 {
@@ -258,4 +259,31 @@ nav.row {
 
 .city-section__city-info {
 	margin-bottom: 10px;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back-customers.jpg);
+	background-size: cover;
+	color: white;
+	background-attachment: fixed;
+}
+
+.testimonial-section__quote {
+	padding: 2%;
+	font-style: italic;
+	line-height: 1.5;
+}
+
+.testimonial-section__quote cite {
+	display: block;
+	padding-top: 20px;
+}
+
+.testimonial-section__quote img {
+	border-radius: 50%;
+	height: 100px;
+	margin-right: 20px;
+	margin-left: 20px;
+	vertical-align: middle;
 }
