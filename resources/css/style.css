@@ -28,7 +28,23 @@ section {
 	padding: 80px 0;
 }
 
-/* Header SECTION */
+/* HEADING SECTION */
+.section-heading {
+	text-align: center;
+	font-size: 250%;
+	font-weight: 300;
+}
+
+.section-heading:after {
+	display: block;
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	content: '';
+	margin: 20px auto;
+}
+
+/* HEADER SECTION */
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/hero.jpg');
 	background-size: cover;
@@ -135,22 +151,6 @@ nav.row {
 	text-align: center;
 }
 
-.feature-section__heading {
-	margin-bottom: 20px;
-	font-size: 250%;
-	font-weight: 300;
-	text-align: center;
-}
-
-.feature-section__heading:after {
-	display: block;
-	width: 100px;
-	height: 2px;
-	background-color: #e67e22;
-	content: '';
-	margin: 20px auto;
-}
-
 .feature-section__sub-heading {
 	width: 70%;
 	margin: 0 auto;
@@ -196,7 +196,7 @@ nav.row {
 	opacity: 0.7;
 }
 
-.meal-section--no-t-padding {
+.section--no-t-padding {
 	padding: 0;
 }
 
@@ -238,17 +238,24 @@ nav.row {
 	font-size: 30px;
 }
 
-.steps-section__heading {
-	text-align: center;
-	font-size: 250%;
-	font-weight: 300;
+/*CITY SECTION*/
+.city-section__img {
+	width: 100%;
+	height: auto;
 }
 
-.steps-section__heading:after {
-	display: block;
-	width: 100px;
-	height: 2px;
-	background-color: #e67e22;
-	content: '';
-	margin: 20px auto;
+.city-section__city-name {
+	font-weight: 300;
+	margin-bottom: 20px;
+	font-size: 150%;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+
+.city-section i {
+	color: #e67e22;
+}
+
+.city-section__city-info {
+	margin-bottom: 10px;
 }
