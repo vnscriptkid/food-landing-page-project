@@ -40,7 +40,7 @@ header {
 header h1 {
 	margin-top: 0;
 	margin-bottom: 20px;
-	font-size: 200%;
+	font-size: 250%;
 	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -137,7 +137,7 @@ nav.row {
 
 .feature-section__heading {
 	margin-bottom: 20px;
-	font-size: 200%;
+	font-size: 250%;
 	font-weight: 300;
 	text-align: center;
 }
@@ -203,4 +203,52 @@ nav.row {
 .meal-section__img:hover {
 	transform: scale(1);
 	opacity: 1;
+}
+
+/*HOW-IT-WORKS SECTION*/
+.steps-section__left-side {
+	margin-top: 30px;
+	text-align: right;
+}
+
+.steps-section__left-image {
+	width: 40%;
+	height: auto;
+	margin-right: 30px;
+}
+
+.steps-section__right-side {
+	margin-top: 70px;
+}
+
+.steps-section__step {
+	margin-bottom: 50px;
+}
+
+.steps-section__step-number {
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	color: #e67e22;
+	border: 2px solid #e67e22;
+	border-radius: 50%;
+	text-align: center;
+	margin-right: 20px;
+	font-size: 30px;
+}
+
+.steps-section__heading {
+	text-align: center;
+	font-size: 250%;
+	font-weight: 300;
+}
+
+.steps-section__heading:after {
+	display: block;
+	width: 100px;
+	height: 2px;
+	background-color: #e67e22;
+	content: '';
+	margin: 20px auto;
 }
